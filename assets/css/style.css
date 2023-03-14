@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+/* header css start */
+
+
+
+header{
+    background-color: #415B1F;
+}
+
+header ul li {
+    display: inline;
+    margin-left: 30px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+}
+
+
+.hamburger i{
+    font-size: 30px;
+    color: #fff;
+}
+
+
+.section-one{
+    background-color: #eee;
+}
+
+.section-one h2{
+    text-align: center;
+}
+
+.section-one .custom-card{
+    box-shadow: 0 3px 5px 0 rgb(95, 92, 92);
+}
+
+
+.section-two{
+    background-color: #ccc;
+}
+
+.container .row .card #lawyer{
+    width: 256px;
+   
+}
+
+.container .row .card{
+    background-color: #ccc;
+    border-radius: 0%;
+}
+
+.part3 h5{
+    font-size:15px ;
+}
+.part3 h1{
+    font-family: 'Merriweather', serif;;
+    font-size: 25px;
+}
+
+.part3{
+    background-color: #ccc;
+}
+.btn {
+    border-radius: 0%;
+    background-color:#415B1F ;
+    border-color: #415B1F;
+}
+
+hr{
+   border-style: solid;
+}
+
+.part4{
+    background-color: #ccc;
+}
+
+.part4 h1{
+    font-size: 20px;
+}
+
+.part5{
+    background-color:#415B1F ;
+}
+
+.part5 p{
+    color: white;
+    font-size: 15px;
+    
+}
+
+@media (max-width:576px){
+    .img{
+        width: 300px;
+    }
+}
+
+@media (max-width:280px){
+    .img{
+        width: 200px;
+    }
+    
+}
